@@ -504,6 +504,12 @@ footer .column:nth-child(1) a:nth-child(5) {
   .container div{
 	  margin-top:20px;
   }
+  
+  .container {
+    margin: 0 125px;
+    margin-right: 0;
+}
+  
   .flex-container,
   .flex-container2 {
     flex-direction: column;
