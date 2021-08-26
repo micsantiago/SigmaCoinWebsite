@@ -9,8 +9,6 @@ body {
   overflow-x: hidden;
   height: 100%;
   margin: 0 auto;
-  /*background: conic-gradient(from 180deg at 50% 50%, #000000, #222222);*/
-  /*background-size: contain;*/
   background-image: url("../images/Figma-gradient.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -256,7 +254,7 @@ p span {
 
 .flex-container {
   display: flex;
-  padding: 10%;
+  padding: 14%;
 }
 
 .flex-container2 {
@@ -352,7 +350,7 @@ aside {
 }
 
 .partner-slide {
-  height: 400px;
+  height: 410px;
   max-width: 1920px;
   margin: 0 auto;
   position: relative;
