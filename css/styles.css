@@ -125,8 +125,6 @@ a {
 }
 
 .language-button:hover {
-  color: #000000;
-  background-color: #f2f5f7;
   border: 1.5px solid transparent;
   font-weight: bold;
 }
@@ -137,13 +135,6 @@ a {
   display: inline-block;
   padding: 3px;
   margin: 2px 5px;
-}
-
-.arrow:hover {
-  border: solid #000000;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3px;
 }
 
 .down {
@@ -205,7 +196,6 @@ p span {
 .gold-button:hover {
   color: #f2f5f7;
   background-color: transparent;
-  border: 1.5px solid #f2f5f7;
 }
 
 .gold-text-button {
