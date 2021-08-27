@@ -107,7 +107,6 @@ a {
   padding: 5px 6px;
   text-align: center;
   list-style: none;
-  /*margin-left: 12%;*/
   margin-left: 17%;
 }
 
@@ -125,8 +124,6 @@ a {
 }
 
 .language-button:hover {
-  color: #000000;
-  background-color: #f2f5f7;
   border: 1.5px solid transparent;
   font-weight: bold;
 }
@@ -137,13 +134,6 @@ a {
   display: inline-block;
   padding: 3px;
   margin: 2px 5px;
-}
-
-.arrow:hover {
-  border: solid #000000;
-  border-width: 0 2px 2px 0;
-  display: inline-block;
-  padding: 3px;
 }
 
 .down {
@@ -205,7 +195,6 @@ p span {
 .gold-button:hover {
   color: #f2f5f7;
   background-color: transparent;
-  border: 1.5px solid #f2f5f7;
 }
 
 .gold-text-button {
@@ -218,8 +207,6 @@ p span {
   font-size: 16px;
   line-height: 30px;
   width: 200px;
-  /*background-image: radial-gradient(66.54% 39.82% at 33.46% 26.28%, #FDF5A6 4.11%, #B88746 57.33%);*/
-  /*background: conic-gradient(from 170.15deg at 45.26% 72.73%, #B88746 -179.01deg, #FDF5A6 68.12deg, #B88746 180.99deg, #FDF5A6 428.12deg);*/
   background: conic-gradient(from 309deg at 45.26% 72.73%, #B88746 -179.01deg, #FDF5A6 268deg, #B88746 350deg, #FDF5A6 428.12deg);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -237,7 +224,6 @@ p span {
   z-index: 3;
   color: white;
   padding: 25px 25px;
-  /*border: none;*/
   cursor: pointer;
   opacity: 0.8;
   position: fixed;
@@ -506,7 +492,7 @@ footer .column:nth-child(1) a:nth-child(5) {
   }
   
   .container {
-    margin: 0 125px;
+    margin: 0 100px;
     margin-right: 0;
 }
   
@@ -516,11 +502,6 @@ footer .column:nth-child(1) a:nth-child(5) {
   }
 
   .headline {
-    /*margin-left: -512px;*/
-   /*  height: 1040px;
-    background-size: cover;
-	text-align: center;
-	display: inline-block; */
 	padding-bottom: 1%;
     background-size: contain;
     text-align: center;
@@ -534,13 +515,11 @@ footer .column:nth-child(1) a:nth-child(5) {
 	text-align: center;
     font-size: xx-large;
 	line-height: 150%;
-    /* margin-left: 512px; */
   }
 
   .headline-text {
     text-align: center;
 	font-size: small;
-    /* margin-left: 512px; */
   }
   
   .paragraph{
