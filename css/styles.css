@@ -45,8 +45,9 @@ a {
 
 .headline-text {
   text-align: left;
-  margin-top: 5%;
-  line-height: 150%;
+  margin-top: 4%;
+  line-height: 180%;
+  font-weight: bold;
 }
 
 .navigation {
@@ -159,17 +160,20 @@ p span {
 
 .join-button {
   color: #131418;
-  background: conic-gradient(from 170.15deg at 45.26% 72.73%, #B88746 -2.83deg, #FDF5A6 68.12deg, #B88746 357.17deg, #FDF5A6 428.12deg);
-  border-radius: 100px;
-  padding: 0.5rem 1rem;
-  margin-left: 2vw;
-  cursor: pointer;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 14px;
-  line-height: 23px;
-  border-width: thin;
+    background: conic-gradient(from 170.15deg at 45.26% 72.73%, #B88746 -2.83deg, #FDF5A6 68.12deg, #B88746 357.17deg, #FDF5A6 428.12deg);
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    margin-left: 2vw;
+    cursor: pointer;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 23px;
+    border-color: #B88746;
+    border-width: thin;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .join-button:hover {
@@ -179,17 +183,20 @@ p span {
 
 .gold-button {
   color: #131418;
-  background: conic-gradient(from 170.15deg at 45.26% 72.73%, #B88746 -179.01deg, #FDF5A6 68.12deg, #B88746 180.99deg, #FDF5A6 428.12deg);
-  border-radius: 80px;
-  padding: 0.5rem 1rem;
-  margin-top: 5%;
-  cursor: pointer;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-size: 16px;
-  line-height: 30px;
-  width: 200px;
-  border-width: thin;
+    background: conic-gradient(from 170.15deg at 45.26% 72.73%, #B88746 -179.01deg, #FDF5A6 68.12deg, #B88746 180.99deg, #FDF5A6 428.12deg);
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    margin-top: 5%;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    font-style: normal;
+    /* font-size: 16px; */
+    /* line-height: 30px; */
+    width: 150px;
+    border-width: thin;
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 14px;
 }
 
 .gold-button:hover {
@@ -335,6 +342,10 @@ aside {
   padding-bottom: 50px;
 }
 
+.why-us .flex-container{
+	padding-top:2%;
+}
+
 .partner-slide {
   height: 410px;
   max-width: 1920px;
@@ -416,6 +427,7 @@ input {
   margin: 2% 18.6% 5% 18.6%;
   line-height: 200%;
   color: #ffffff;
+  font-size: 15px;
 }
 
 footer {
@@ -594,12 +606,12 @@ footer .column:nth-child(1) a:nth-child(5) {
   .newsletter button {
     width: 60px;
     height: 50px;
-    border-top-right-radius: 300%;
-    border-bottom-right-radius: 300%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
 	border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     right: 64px;
-    top: 21px;
+    top: 21.5px;
   }
   
   
