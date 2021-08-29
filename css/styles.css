@@ -26,13 +26,13 @@ a {
 .headline {
   padding: 10%;
   color: #ffffff;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/cryptohiro.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url("../images/cryptohiro.jpg");
   background-repeat: no-repeat;
   background-position: center 68px;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding-bottom: 15%;
+  padding-bottom: 5%;
 }
 
 /* Increase the font size of the heading */
@@ -47,7 +47,6 @@ a {
   text-align: left;
   margin-top: 4%;
   line-height: 180%;
-  font-weight: bold;
 }
 
 .navigation {
@@ -205,13 +204,12 @@ p span {
 }
 
 .gold-text-button {
-  color: #131418;
   border-radius: 80px;
   padding: 0.5rem 1rem;
   cursor: pointer;
   font-family: "Open Sans";
-  font-style: normal;
   font-size: 16px;
+  font-weight: bold;
   line-height: 30px;
   width: 200px;
   background: conic-gradient(from 309deg at 45.26% 72.73%, #B88746 -179.01deg, #FDF5A6 268deg, #B88746 350deg, #FDF5A6 428.12deg);
@@ -243,6 +241,56 @@ p span {
 
 .chat-button:hover {
   opacity: 1;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+}
+#mouse_body {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 32px;
+  /* used just to add space from top */
+  margin-top: 6% !important;
+  /* size of the mouse body */
+  height: 43px;
+  width: 23px;
+   /* to center in browser */
+  margin: 0 auto;
+}
+
+#mouse_wheel {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  /* position property required to play animation  */
+  position: relative; 
+  height: 3px;
+  width: 3px;
+  /* to center wheel in mouse body */
+  margin: 0 auto; 
+  animation: wheel_animation 1.5s linear infinite;
+}
+
+/* include use -moz-, -webkit-, or -o- for respective browser type*/
+@keyframes wheel_animation { 
+  0% {
+    opacity: 0;
+    top: 2px;
+  }
+  50% {
+    opacity: 1;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 30px;
+  }
 }
 
 .flex-container {
