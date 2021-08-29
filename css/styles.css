@@ -606,8 +606,10 @@ footer hr {
     margin-top: 20px;
   }
   .container {
-    margin: 0 100px;
-    margin-right: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   .flex-container, .flex-container2 {
     flex-direction: column;
@@ -642,6 +644,9 @@ footer hr {
   }
   .gold-text {
     text-align: center;
+    display: flex;
+    font-size: 144%;
+    flex-direction: column
   }
   .gold-text-button {
     font-size: 15px;
@@ -663,8 +668,8 @@ footer hr {
   }
   #about_resize {
     padding: 0% 0% 5% 0%;
-    border-top-left-radius: 18%;
-    border-top-right-radius: 18%;
+    border-top-left-radius: 44px;
+    border-top-right-radius: 44px;
     width: 100%;
   }
   #qualities_resize {
@@ -685,7 +690,8 @@ footer hr {
     font-size: small;
   }
   #slider {
-    margin-top: 4%;
+    margin: 4% auto;
+    display: flex;
   }
   input {
     width: 50%;
