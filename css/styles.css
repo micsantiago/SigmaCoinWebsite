@@ -259,7 +259,7 @@ h4 {
 
 #mouse_wheel {
   border-style: solid;
-  border-width: 2px;
+  border-width: thin;
   border-color: #B88746;
   border-radius: 8px;
   position: relative;
