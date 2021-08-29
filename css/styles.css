@@ -153,7 +153,6 @@ a {
 /* Get started button */
 
 .join-button {
-  color: #131418;
   background: conic-gradient(from 170.15deg at 45.26% 72.73%, #B88746 -2.83deg, #FDF5A6 68.12deg, #B88746 357.17deg, #FDF5A6 428.12deg);
   border-radius: 100px;
   padding: 0.5rem 1rem;
@@ -170,7 +169,7 @@ a {
 }
 
 .join-button:hover {
-  color: #f2f5f7;
+  color: #FFFFFF;
   background-color: transparent;
 }
 
@@ -249,8 +248,8 @@ h4 {
 
 #mouse_body {
   border-style: solid;
-  border-width: 2px;
-  border-color: #FFFFFF;
+  border-width: thin;
+  border-color: #B88746;
   border-radius: 32px;
   margin-top: 6% !important;
   height: 43px;
@@ -261,12 +260,11 @@ h4 {
 #mouse_wheel {
   border-style: solid;
   border-width: 2px;
-  border-color: #FFFFFF;
+  border-color: #B88746;
   border-radius: 8px;
-  background-color: #FFFFFF;
   position: relative;
-  height: 3px;
-  width: 3px;
+  height: 20%;
+  width: 20%;
   margin: 0 auto;
   animation: wheel_animation 1.5s linear infinite;
 }
@@ -347,6 +345,13 @@ h4 {
 .resize {
   width: 100%;
   height: 100%;
+}
+
+/* Welcome section */
+
+.welcome .flex-container {
+  padding-top: 8%;
+  padding-bottom: 8%;
 }
 
 /* About section */
@@ -493,7 +498,7 @@ p span {
 
 input {
   width: 35%;
-  height: 60px;
+  height: 58px;
   border-radius: 40px;
   border: 0;
   background: #FFFFFF;
@@ -502,15 +507,18 @@ input {
   font-weight: bold;
   outline: 0;
   margin: 2% auto;
+  border-bottom-right-radius: 0%;
+  border-top-right-radius: 0%;
 }
 
 .newsletter button {
   border: 0;
-  width: 60px;
+  width: 58px;
   height: 58px;
-  border-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-top-right-radius: 100%;
   position: relative;
-  right: 66px;
+  right: 4px;
   top: 24px;
   outline: none;
   cursor: pointer;
@@ -686,6 +694,8 @@ footer hr {
     font-size: small;
     font-size: 10px;
     margin: 5% 0% 5% 10%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
   }
   .newsletter button {
     width: 60px;
@@ -715,7 +725,6 @@ footer hr {
     width: 100%;
     text-align: center;
   }
-
   /* For mobile hamburger menu */
   .menu {
     clear: both;
