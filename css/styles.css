@@ -630,10 +630,10 @@ footer hr {
   }
   .headline-text {
     text-align: center;
-    font-size: small;
+    font-size: 70%;
   }
   .paragraph {
-    font-size: 14px;
+    font-size: 66%;
     text-align: center;
     padding-right: 0;
   }
@@ -718,14 +718,14 @@ footer hr {
   }
   .newsletter p {
     margin: 2% 20%;
-    font-size: small;
+    font-size: 70%;
   }
   .partners {
     padding-bottom: 10%;
   }
   .about p {
     line-height: 220%;
-    font-size: small;
+    font-size: 65%;
   }
   li {
     width: 100%;
